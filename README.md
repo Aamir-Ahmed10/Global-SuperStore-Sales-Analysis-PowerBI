@@ -1,8 +1,5 @@
 # Global Superstore Sales Analysis — Power BI Dashboard
 
-![Dashboard](images/dashboard-screenshot.png)
-*(Add a screenshot or GIF of your Power BI report here — export from Power BI Desktop and save it to `images/`.)*
-
 ## 📌 Project Overview
 
 This project analyzes four years (2012–2015) of order-level sales data for a global retail superstore operating across **5 markets, 23 regions, and 165 countries**. Using a raw transactional dataset (Orders, Returns, and People tables), the goal was to build a single-page Power BI dashboard that gives leadership a fast, visual read on **sales performance, profitability, customer value, and fulfillment/returns health** — and to surface the specific product, geography, and pricing issues that are quietly eating into margin.
@@ -13,18 +10,6 @@ This project analyzes four years (2012–2015) of order-level sales data for a g
 - **Excel** — source dataset (3 linked tables)
 - **Python / pandas** — used here to validate the underlying numbers
 
-## 📂 Repository Structure
-
-```
-global-superstore-sales-analysis/
-├── README.md
-├── data/
-│   └── global_superstore_2016.xlsx
-├── powerbi/
-│   └── Global_Superstore_Sales_Analysis.pbix
-└── images/
-    └── dashboard-screenshot.png
-```
 
 ## 🗂️ The Dataset
 
@@ -92,12 +77,6 @@ A stakeholder looking at this dashboard would naturally ask:
 - **Build a retention program around the top 10–20 customers** identified in the dashboard; they're a disproportionate share of profit.
 - **Lean into Technology and Office Supplies growth** given they're both the highest-margin and (for Technology) highest-revenue categories.
 
-## 🚀 How to Use This Repo
-
-1. Clone the repo.
-2. Open `powerbi/Global_Superstore_Sales_Analysis.pbix` in Power BI Desktop.
-3. If prompted, point the data source to `data/global_superstore_2016.xlsx` and refresh.
-4. Use the Year slicer to explore performance by year; hover the map for region-level detail.
 
 ## 📈 Possible Next Steps
 
@@ -107,4 +86,4 @@ A stakeholder looking at this dashboard would naturally ask:
 
 ## 👤 Author
 
-Add your name, LinkedIn, and a one-line note on what you personally built/decided in this analysis — recruiters looking at portfolio repos want to see your judgment, not just the output.
+Aamir Ahmed, https://www.linkedin.com/in/aamir-ahmed10/
