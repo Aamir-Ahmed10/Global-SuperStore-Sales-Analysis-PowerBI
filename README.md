@@ -7,7 +7,7 @@ This project analyzes four years (2012–2015) of order-level sales data for a g
 ## 🧰 Tools & Tech
 
 - **Power BI Desktop** — data modeling, DAX measures, dashboard/report
-- **Excel** — source dataset (3 linked tables)
+- **Excel** — source dataset 
 - **Python / pandas** — used here to validate the underlying numbers
 
 
